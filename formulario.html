@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Dados Pessoais</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <h2>Formulário de Dados Pessoais</h2>
+
+    <fieldset>
+        <form action="#" method="post">
+
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome">
+            </div>
+
+            <div class="campo opcoes">
+                <label>Sexo:</label><br>
+                <input type="radio" id="masculino" name="sexo" value="Masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="feminino" name="sexo" value="Feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div class="campo opcoes">
+                <label>Raça:</label><br>
+                <input type="checkbox" id="branco" name="raca" value="Branco">
+                <label for="branco">Branco</label><br>
+                <input type="checkbox" id="negro" name="raca" value="Negro">
+                <label for="negro">Negro</label><br>
+                <input type="checkbox" id="amarelo" name="raca" value="Amarelo">
+                <label for="amarelo">Amarelo</label><br>
+                <input type="checkbox" id="pardo" name="raca" value="Pardo">
+                <label for="pardo">Pardo</label><br>
+                <input type="checkbox" id="indigena" name="raca" value="Indígena">
+                <label for="indigena">Indígena</label>
+            </div>
+
+            <div class="campo">
+                <label for="nacionalidade">Nacionalidade:</label><br>
+                <select id="nacionalidade" name="nacionalidade">
+                    <option value="">Selecione um país</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolívia">Bolívia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colômbia">Colômbia</option>
+                    <option value="Equador">Equador</option>
+                    <option value="Guiana">Guiana</option>
+                    <option value="Paraguai">Paraguai</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Suriname">Suriname</option>
+                    <option value="Uruguai">Uruguai</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="opiniao">Sua opinião sobre o seu país:</label>
+                <textarea id="opiniao" name="opiniao"></textarea>
+            </div>
+
+            <div class="botoes">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </form>
+    </fieldset>
+
+    <p style="margin-top: 25px;"><a href="index.html">← Voltar para a página inicial</a></p>
+
+</body>
+</html>

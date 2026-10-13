@@ -1,0 +1,58 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 40px;
+    color: #000;
+}
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+fieldset {
+    border: 1px solid #999;
+    padding: 20px 25px;
+    max-width: 650px;
+}
+label {
+    font-weight: bold;
+}
+.campo {
+    margin-bottom: 15px;
+}
+input[type="text"] {
+    display: block;
+    margin-top: 5px;
+    padding: 4px;
+    width: 300px;
+    border: 1px solid #000;
+}
+.opcoes label {
+    font-weight: normal;
+    display: inline;
+    margin-left: 5px;
+}
+.opcoes input {
+    margin-right: 5px;
+}
+select {
+    padding: 4px;
+    border: 1px solid #000;
+    min-width: 180px;
+}
+textarea {
+    display: block;
+    margin-top: 5px;
+    width: 300px;
+    height: 120px;
+    border: 1px solid #000;
+    padding: 4px;
+}
+.botoes {
+    margin-top: 20px;
+}
+.botoes input {
+    padding: 3px 12px;
+    margin-right: 8px;
+    border: 1px solid #000;
+    background: #efefef;
+    cursor: pointer;
+}
